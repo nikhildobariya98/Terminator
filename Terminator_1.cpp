@@ -40,10 +40,10 @@ int main(){
                 throw password;
             }
         }
-        cout << "Valid password!!";
+        cout << "password is not valid";
     }
     catch(string str){
-        cout << "password is not valid" << endl;
+        cout << "Valid password!!" << endl;
     }
     
 }
